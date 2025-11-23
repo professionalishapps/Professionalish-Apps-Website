@@ -16,4 +16,6 @@ frontend:
       - .npm/**/*
       - node_modules/**/*
       - .next/cache/**/*
+  buildSettings:
+    outputPathOverride: out
 
