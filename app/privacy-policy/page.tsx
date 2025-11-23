@@ -21,6 +21,9 @@ export default function PrivacyPolicy() {
               <Link href="/" className="text-gray-700 hover:text-blue-600 transition-colors">
                 Home
               </Link>
+              <Link href="/support" className="text-gray-700 hover:text-blue-600 transition-colors">
+                Support
+              </Link>
               <Link href="/privacy-policy" className="text-gray-700 hover:text-blue-600 transition-colors font-semibold">
                 Privacy Policy
               </Link>
@@ -304,7 +307,7 @@ export default function PrivacyPolicy() {
                   <Mail className="h-6 w-6 text-blue-600 mt-1" />
                   <div>
                     <p className="text-gray-700">
-                      <strong>Email:</strong> contact@professionalishapps.com
+                      <strong>Email:</strong> professionalishapps@gmail.com
                     </p>
                   </div>
                 </div>
@@ -352,6 +355,11 @@ export default function PrivacyPolicy() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/support" className="text-gray-400 hover:text-white transition-colors">
+                    Support
+                  </Link>
+                </li>
+                <li>
                   <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">
                     Privacy Policy
                   </Link>
@@ -361,7 +369,7 @@ export default function PrivacyPolicy() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <p className="text-gray-400">
-                Email: contact@professionalishapps.com
+                Email: professionalishapps@gmail.com
               </p>
             </div>
           </div>

@@ -16,6 +16,9 @@ export default function Home() {
               <Link href="/" className="text-gray-700 hover:text-blue-600 transition-colors">
                 Home
               </Link>
+              <Link href="/support" className="text-gray-700 hover:text-blue-600 transition-colors">
+                Support
+              </Link>
               <Link href="/privacy-policy" className="text-gray-700 hover:text-blue-600 transition-colors">
                 Privacy Policy
               </Link>
@@ -226,6 +229,11 @@ export default function Home() {
                   </Link>
                 </li>
                 <li>
+                  <Link href="/support" className="text-gray-400 hover:text-white transition-colors">
+                    Support
+                  </Link>
+                </li>
+                <li>
                   <Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">
                     Privacy Policy
                   </Link>
@@ -235,7 +243,7 @@ export default function Home() {
             <div>
               <h3 className="text-lg font-semibold mb-4">Contact</h3>
               <p className="text-gray-400">
-                Email: contact@professionalishapps.com
+                Email: professionalishapps@gmail.com
               </p>
             </div>
           </div>
